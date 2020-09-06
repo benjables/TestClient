@@ -1,0 +1,20 @@
+package first;
+
+import java.util.concurrent.CopyOnWriteArrayList;
+
+import first.modules.Module;
+
+public class Client {
+	
+	public static String name = "First", version = "1";
+	public static CopyOnWriteArrayList<Module> modules = new CopyOnWriteArrayList<Module>();
+	
+	public static void startup() {
+		
+	}
+	
+	public static void keyPress(int key) {
+		
+	}
+
+}

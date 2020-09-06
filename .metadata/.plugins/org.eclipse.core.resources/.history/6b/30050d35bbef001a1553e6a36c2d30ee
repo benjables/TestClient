@@ -1,0 +1,19 @@
+package first.modules.render;
+
+import org.lwjgl.input.Keyboard;
+
+import first.events.Event;
+import first.events.listeners.EventUpdate;
+import first.modules.Module;
+
+public class TabGUI extends Module {
+
+	public TabGUI() {
+		super("TabGUI", Keyboard.KEY_NONE, Category.RENDER);
+		this.toggle();
+	}
+	
+	public void onEvent(Event e) {
+		
+	}
+}

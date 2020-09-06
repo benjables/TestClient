@@ -1,0 +1,21 @@
+package first.modules.movement;
+
+import org.lwjgl.input.Keyboard;
+
+import first.modules.Module;
+
+public class Speed extends Module {
+	
+	public Speed() {
+		super("Speed", Keyboard.KEY_P, Category.MOVEMENT);
+	}
+	
+	public void onEnable() {
+		mc.thePlayer.capabilities.setPlayerWalkSpeed(100000000);
+	}
+	
+	public void onDisable() {
+		mc.thePlayer.capabilities.setPlayerWalkSpeed(100);
+	}
+
+}

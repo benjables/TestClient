@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.util.concurrent.CopyOnWriteArrayList"/>
+<fullyQualifiedTypeName name="first.modules.movement.Fly"/>
+<fullyQualifiedTypeName name="first.events.EventType"/>
+<fullyQualifiedTypeName name="first.ui.HUD"/>
+<fullyQualifiedTypeName name="net.minecraft.client.gui.ScaledResolution"/>
+<fullyQualifiedTypeName name="net.minecraft.client.Minecraft"/>
+<fullyQualifiedTypeName name="first.Client"/>
+<fullyQualifiedTypeName name="first.modules.movement.Sprint"/>
+<fullyQualifiedTypeName name="first.modules.render.FullBright"/>
+<fullyQualifiedTypeName name="first.events.listeners.EventUpdate"/>
+<fullyQualifiedTypeName name="net.minecraft.network.play.client.C03PacketPlayer"/>
+<fullyQualifiedTypeName name="first.modules.player.NoFall"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="first.modules.Module.Category"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="first.events.Event"/>
+<fullyQualifiedTypeName name="first.events.listeners.EventRenderGUI"/>
+<fullyQualifiedTypeName name="first.modules.Module"/>
+<fullyQualifiedTypeName name="org.lwjgl.input.Keyboard"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,11 @@
+package first;
+
+public class Client {
+	
+	public static String name = "First", version = "1";
+	
+	public static void startup() {
+		
+	}
+
+}

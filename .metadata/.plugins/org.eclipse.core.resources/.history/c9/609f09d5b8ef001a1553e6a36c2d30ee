@@ -1,0 +1,39 @@
+package first;
+
+import java.util.concurrent.CopyOnWriteArrayList;
+
+import first.events.Event;
+import first.modules.Module;
+import first.modules.movement.Fly;
+import first.modules.movement.Sprint;
+import first.modules.render.FullBright;
+import first.ui.HUD;
+
+public class Client {
+	
+	public static String name = "First", version = "1";
+	public static CopyOnWriteArrayList<Module> modules = new CopyOnWriteArrayList<Module>();
+	public static HUD hud = new HUD();
+	
+	public static void startup() {
+		modules.add(new Fly());
+		modules.add(new Sprint());
+		modules.add(new FullBright());
+	}
+	
+	public static void onEvent(Event e) {
+		for (Module m : modules) {
+			if (!m.isToggled()) continue;
+			m.onEvent(e);
+		}
+	}
+	
+	public static void keyPress(int key) {
+		for (Module m : modules) {
+			if (m.getKey() == key) {
+				m.toggle();
+			}
+		}
+	}
+
+}

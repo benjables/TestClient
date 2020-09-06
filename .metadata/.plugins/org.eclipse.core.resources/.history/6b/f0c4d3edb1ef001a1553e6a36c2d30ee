@@ -1,0 +1,9 @@
+package first.ui;
+
+public class HUD {
+
+	public void draw() {
+		
+	}
+	
+}
